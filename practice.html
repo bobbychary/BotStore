@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BotStore</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="menu-icon">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <img src="./meta-bots.png" alt="Profile Logo" class="profile-logo">
+            <!-- Toggle switch for light/dark mode -->
+            <label class="switch">
+                <input type="checkbox" id="toggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </header>
+
+    <div class="search-container">
+        <h1>BOTS VALLEY</h1>
+        <input type="search" placeholder="Search for a bot...">
+    </div>
+
+    <h2 class="most-used-bots"><span class="text-highlight">MOST USED BOTS🔥</span></h2>
+
+    <!-- Tab List -->
+    <ul role="tablist" class="tablist">
+        <li>
+            <button type="button" role="tab" class="tab">All</button>
+        </li>
+        <li>
+            <button type="button" role="tab" class="tab">Art</button>
+        </li>
+        <li>
+            <button type="button" role="tab" class="tab">Music</button>
+        </li>
+        <li>
+            <button type="button" role="tab" class="tab">Science</button>
+        </li>
+        <li>
+            <button type="button" role="tab" class="tab">Coding</button>
+        </li>
+        <li>
+            <button type="button" role="tab" class="tab">Image Generation</button>
+        </li>
+    </ul>
+
+    <main>
+        <!-- Bot listings -->
+        <section class="bot-list">
+            <div class="bot-card">
+                <img src="./chatgpt.jpg" alt="Bot Image">
+                <h2 class="bot-title">BOT 1</h2>
+                <p>Domain: super hero</p>
+            </div>
+            <div class="bot-card">
+                <img src="./chatgpt.jpg" alt="Bot Image">
+                <h2 class="bot-title">BOT 2</h2>
+                <p>Domain: super hero</p>
+            </div>
+            <div class="bot-card">
+                <img src="./chatgpt.jpg" alt="Bot Image">
+                <h2 class="bot-title">BOT 3</h2>
+                <p>Domain: super hero</p>
+            </div>
+            <div class="bot-card">
+                <img src="./chatgpt.jpg" alt="Bot Image">
+                <h2 class="bot-title">BOT 4</h2>
+                <p>Domain: super hero</p>
+            </div>
+            <div class="bot-card">
+                <img src="./bot1.jpg" alt="Bot Image">
+                <h3>Bot Name</h3>
+                <p>Short description of the bot.</p>
+            </div>
+            <div class="bot-card">
+                <img src="./bot1.jpg" alt="Bot Image">
+                <h3>Bot Name</h3>
+                <p>Short description of the bot.</p>
+            </div>
+            <!-- Add more bot cards as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BotStore. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

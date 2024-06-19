@@ -1,0 +1,128 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header h1 {
+  flex: 1;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Logo and Company Name */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.company-name {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Search Bar */
+input[type="search"] {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Main Content */
+main {
+  margin-top: 50px;
+}
+
+.bot-list {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.bot-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.bot-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.bot-card h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.bot-card p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #222;
+  color: white;
+}
